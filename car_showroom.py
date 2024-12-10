@@ -56,5 +56,5 @@ class CarShowroom:
 			return self.final_price(8900000)
 		elif chosen == 2:
 			return self.final_price(4700000)
-
-CarShowroom()
+while True:
+	CarShowroom()
