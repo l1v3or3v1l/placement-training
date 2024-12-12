@@ -38,7 +38,7 @@ class DLL:
 
     def display(self, head):
         curr = head
-        print("null ")
+        print("null", end = " <=> ")
         while curr != None:
             print(curr.data,end=" <=> ")
             curr = curr.next
